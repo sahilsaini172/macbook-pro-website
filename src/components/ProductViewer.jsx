@@ -27,10 +27,10 @@ const ProductViewer = () => {
               )}
             />
             <div
-              onClick={() => setColor("#2e2c2e")}
+              onClick={() => setColor("#2E2C2F")}
               className={clsx(
                 "bg-neutral-900",
-                color === "#2e2c2e" && "active"
+                color === "#2E2C2F" && "active"
               )}
             />
           </div>
