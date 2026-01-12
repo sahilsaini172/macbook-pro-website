@@ -8,10 +8,9 @@ Source: https://sketchfab.com/3d-models/macbook-pro-m3-16-inch-2024-8e34fc2b3031
 Title: macbook pro M3 16 inch 2024
 */
 
-import React from "react";
 import { useGLTF } from "@react-three/drei";
 
-export function Macbook(props) {
+export default function MacbookModel(props) {
   const { nodes, materials } = useGLTF("/models/macbook-transformed.glb");
   return (
     <group {...props} dispose={null}>
