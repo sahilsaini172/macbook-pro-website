@@ -12,7 +12,6 @@ const Showcase = () => {
           trigger: "#showcase",
           start: "top top",
           end: "bottom top",
-          markers: true,
           scrub: true,
           pin: true,
         },
