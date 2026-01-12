@@ -44,7 +44,7 @@ const Showcase = () => {
 
             <div className="space-y-5 mt-7 pe-10">
               <p>
-                Introducting {""}{" "}
+                Introducing {""}{" "}
                 <span className="text-white">
                   M4, the next generation of Apple silicon
                 </span>
@@ -62,7 +62,7 @@ const Showcase = () => {
                 to your fingertips.
               </p>
               <p className="text-primary">
-                Learn more about Apple Inteligence.
+                Learn more about Apple Intelligence.
               </p>
             </div>
           </div>
